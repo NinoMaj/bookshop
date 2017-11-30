@@ -47241,11 +47241,7 @@ var Main = function (_React$Component) {
         'div',
         null,
         _react2.default.createElement(_menu2.default, { cartItemsNumber: this.props.totalQty }),
-        _react2.default.createElement(
-          'div',
-          { className: 'container' },
-          this.props.children
-        ),
+        this.props.children,
         _react2.default.createElement(_footer2.default, null)
       );
     }

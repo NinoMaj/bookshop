@@ -14,9 +14,7 @@ class Main extends React.Component {
     return (
       <div>
         <Menu cartItemsNumber={this.props.totalQty} />
-          <div className="container">
           {this.props.children}
-          </div>
         <Footer />
       </div>
     );

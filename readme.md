@@ -1,0 +1,1 @@
+Simple universal react, redux, node, mongodb Book Shop app.

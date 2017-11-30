@@ -10,7 +10,7 @@ const httpProxy = require('http-proxy');
 
 const index = require('./routes/index');
 const Books = require('./models/books.js');
-const proxyPort = require('./apiServer');
+const proxyPort = 3001;
 const requestHandler = require('./requestHandler');
 
 const app = express();
